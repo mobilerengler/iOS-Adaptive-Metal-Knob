@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137B5B8F15890E4900A4135A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137B5B8E15890E4900A4135A /* UIKit.framework */; };
+		137B5B9115890E4900A4135A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137B5B9015890E4900A4135A /* Foundation.framework */; };
+		137B5B9315890E4900A4135A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137B5B9215890E4900A4135A /* CoreGraphics.framework */; };
+		137B5B9915890E4900A4135A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 137B5B9715890E4900A4135A /* InfoPlist.strings */; };
+		137B5B9B15890E4900A4135A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 137B5B9A15890E4900A4135A /* main.m */; };
+		137B5B9F15890E4900A4135A /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 137B5B9E15890E4900A4135A /* MMAppDelegate.m */; };
+		137B5BA215890E4900A4135A /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137B5BA115890E4900A4135A /* MMViewController.m */; };
+		137B5BA515890E4900A4135A /* MMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137B5BA315890E4900A4135A /* MMViewController.xib */; };
+		137B5BB115890E7200A4135A /* MMKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 137B5BB015890E7200A4135A /* MMKnob.m */; };
+		137B5BB5158914CD00A4135A /* knob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 137B5BB4158914CD00A4135A /* knob@2x.png */; };
+		137B5BBF15892BF200A4135A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137B5BBE15892BF200A4135A /* CoreMotion.framework */; };
+		137B5BC115892E8000A4135A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137B5BC015892E8000A4135A /* QuartzCore.framework */; };
+		137B5BC51589300E00A4135A /* knob-base@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 137B5BC31589300E00A4135A /* knob-base@2x.png */; };
+		137B5BC91589325900A4135A /* knob-inverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 137B5BC71589325900A4135A /* knob-inverted@2x.png */; };
+		137B5BCB15893FBD00A4135A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 137B5BCA15893FBD00A4135A /* Icon@2x.png */; };
+		137B5BCD1589417700A4135A /* knob-shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 137B5BCC1589417700A4135A /* knob-shadow@2x.png */; };
+		137B5BCF1589444600A4135A /* knob-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 137B5BCE1589444600A4135A /* knob-bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		137B5B8A15890E4900A4135A /* Knob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		137B5B8E15890E4900A4135A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		137B5B9015890E4900A4135A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		137B5B9215890E4900A4135A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		137B5B9615890E4900A4135A /* Knob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Knob-Info.plist"; sourceTree = "<group>"; };
+		137B5B9815890E4900A4135A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		137B5B9A15890E4900A4135A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		137B5B9C15890E4900A4135A /* Knob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Knob-Prefix.pch"; sourceTree = "<group>"; };
+		137B5B9D15890E4900A4135A /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		137B5B9E15890E4900A4135A /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		137B5BA015890E4900A4135A /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		137B5BA115890E4900A4135A /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		137B5BA415890E4900A4135A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
+		137B5BAF15890E7200A4135A /* MMKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMKnob.h; path = Classes/MMKnob.h; sourceTree = "<group>"; };
+		137B5BB015890E7200A4135A /* MMKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMKnob.m; path = Classes/MMKnob.m; sourceTree = "<group>"; };
+		137B5BB4158914CD00A4135A /* knob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knob@2x.png"; sourceTree = "<group>"; };
+		137B5BBE15892BF200A4135A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		137B5BC015892E8000A4135A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		137B5BC31589300E00A4135A /* knob-base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knob-base@2x.png"; sourceTree = "<group>"; };
+		137B5BC71589325900A4135A /* knob-inverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knob-inverted@2x.png"; sourceTree = "<group>"; };
+		137B5BCA15893FBD00A4135A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		137B5BCC1589417700A4135A /* knob-shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knob-shadow@2x.png"; sourceTree = "<group>"; };
+		137B5BCE1589444600A4135A /* knob-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knob-bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		137B5B8715890E4900A4135A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137B5B8F15890E4900A4135A /* UIKit.framework in Frameworks */,
+				137B5B9115890E4900A4135A /* Foundation.framework in Frameworks */,
+				137B5B9315890E4900A4135A /* CoreGraphics.framework in Frameworks */,
+				137B5BBF15892BF200A4135A /* CoreMotion.framework in Frameworks */,
+				137B5BC115892E8000A4135A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137B5B7F15890E4900A4135A = {
+			isa = PBXGroup;
+			children = (
+				137B5B9415890E4900A4135A /* Knob */,
+				137B5BAB15890E5F00A4135A /* Resources */,
+				137B5B8D15890E4900A4135A /* Frameworks */,
+				137B5B8B15890E4900A4135A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		137B5B8B15890E4900A4135A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				137B5B8A15890E4900A4135A /* Knob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		137B5B8D15890E4900A4135A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				137B5BC015892E8000A4135A /* QuartzCore.framework */,
+				137B5BBE15892BF200A4135A /* CoreMotion.framework */,
+				137B5B8E15890E4900A4135A /* UIKit.framework */,
+				137B5B9015890E4900A4135A /* Foundation.framework */,
+				137B5B9215890E4900A4135A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		137B5B9415890E4900A4135A /* Knob */ = {
+			isa = PBXGroup;
+			children = (
+				137B5BAF15890E7200A4135A /* MMKnob.h */,
+				137B5BB015890E7200A4135A /* MMKnob.m */,
+				137B5B9D15890E4900A4135A /* MMAppDelegate.h */,
+				137B5B9E15890E4900A4135A /* MMAppDelegate.m */,
+				137B5BA015890E4900A4135A /* MMViewController.h */,
+				137B5BA115890E4900A4135A /* MMViewController.m */,
+				137B5BA315890E4900A4135A /* MMViewController.xib */,
+				137B5B9515890E4900A4135A /* Supporting Files */,
+			);
+			path = Knob;
+			sourceTree = "<group>";
+		};
+		137B5B9515890E4900A4135A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				137B5B9615890E4900A4135A /* Knob-Info.plist */,
+				137B5B9715890E4900A4135A /* InfoPlist.strings */,
+				137B5B9A15890E4900A4135A /* main.m */,
+				137B5B9C15890E4900A4135A /* Knob-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		137B5BAB15890E5F00A4135A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				137B5BCA15893FBD00A4135A /* Icon@2x.png */,
+				137B5BAC15890E5F00A4135A /* Images */,
+			);
+			name = Resources;
+			path = Knob/Resources;
+			sourceTree = "<group>";
+		};
+		137B5BAC15890E5F00A4135A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				137B5BCE1589444600A4135A /* knob-bg@2x.png */,
+				137B5BCC1589417700A4135A /* knob-shadow@2x.png */,
+				137B5BC71589325900A4135A /* knob-inverted@2x.png */,
+				137B5BC31589300E00A4135A /* knob-base@2x.png */,
+				137B5BB4158914CD00A4135A /* knob@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		137B5B8915890E4900A4135A /* Knob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137B5BA815890E4900A4135A /* Build configuration list for PBXNativeTarget "Knob" */;
+			buildPhases = (
+				137B5B8615890E4900A4135A /* Sources */,
+				137B5B8715890E4900A4135A /* Frameworks */,
+				137B5B8815890E4900A4135A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knob;
+			productName = Knob;
+			productReference = 137B5B8A15890E4900A4135A /* Knob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		137B5B8115890E4900A4135A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ryan Engle";
+			};
+			buildConfigurationList = 137B5B8415890E4900A4135A /* Build configuration list for PBXProject "Knob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 137B5B7F15890E4900A4135A;
+			productRefGroup = 137B5B8B15890E4900A4135A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				137B5B8915890E4900A4135A /* Knob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		137B5B8815890E4900A4135A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137B5B9915890E4900A4135A /* InfoPlist.strings in Resources */,
+				137B5BA515890E4900A4135A /* MMViewController.xib in Resources */,
+				137B5BB5158914CD00A4135A /* knob@2x.png in Resources */,
+				137B5BC51589300E00A4135A /* knob-base@2x.png in Resources */,
+				137B5BC91589325900A4135A /* knob-inverted@2x.png in Resources */,
+				137B5BCB15893FBD00A4135A /* Icon@2x.png in Resources */,
+				137B5BCD1589417700A4135A /* knob-shadow@2x.png in Resources */,
+				137B5BCF1589444600A4135A /* knob-bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137B5B8615890E4900A4135A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137B5B9B15890E4900A4135A /* main.m in Sources */,
+				137B5B9F15890E4900A4135A /* MMAppDelegate.m in Sources */,
+				137B5BA215890E4900A4135A /* MMViewController.m in Sources */,
+				137B5BB115890E7200A4135A /* MMKnob.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		137B5B9715890E4900A4135A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137B5B9815890E4900A4135A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		137B5BA315890E4900A4135A /* MMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137B5BA415890E4900A4135A /* en */,
+			);
+			name = MMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		137B5BA615890E4900A4135A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		137B5BA715890E4900A4135A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		137B5BA915890E4900A4135A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Knob/Knob-Prefix.pch";
+				INFOPLIST_FILE = "Knob/Knob-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		137B5BAA15890E4900A4135A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Knob/Knob-Prefix.pch";
+				INFOPLIST_FILE = "Knob/Knob-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		137B5B8415890E4900A4135A /* Build configuration list for PBXProject "Knob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137B5BA615890E4900A4135A /* Debug */,
+				137B5BA715890E4900A4135A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137B5BA815890E4900A4135A /* Build configuration list for PBXNativeTarget "Knob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137B5BA915890E4900A4135A /* Debug */,
+				137B5BAA15890E4900A4135A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 137B5B8115890E4900A4135A /* Project object */;
+}
